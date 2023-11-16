@@ -1,0 +1,24 @@
+.bodysection {
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.grey {
+  color: #333;
+}
+.green {
+  color: #04ddb2;
+}
+.weight {
+  font-weight: 500;
+  font-size: 24px;
+}
+.container {
+  padding: 30px;
+  background-color: #e8edf0;
+  border-radius: 20px;
+}

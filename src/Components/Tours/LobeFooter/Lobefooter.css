@@ -1,0 +1,6 @@
+.footerdesc {
+  text-decoration: none;
+}
+.footer {
+  flex-direction: column;
+}
