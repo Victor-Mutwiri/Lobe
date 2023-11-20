@@ -1,9 +1,10 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className=" flexCenter paddings Navbar">
+    <header>
       <img
         src="./logo.png"
         alt="Logo Image"
@@ -11,17 +12,19 @@ const Navbar = () => {
         height={80} */
         className="flexCenter"
       />
-      <div className="flexCenter Navbarselections">
-        <a href="">Overview</a>
-        <a href="">Examples</a>
-        <a href="">Tour</a>
-        <a href="">Blog</a>
-        <a href="">Help</a>
-        <button className="button navbutton">
-          <a href="">Download</a>
+      <nav>
+        <NavLink to="/#">Overview</NavLink>
+        <NavLink to="/Examples">Examples</NavLink>
+        <NavLink to="/">Tour</NavLink>
+        <NavLink to="#">Blog</NavLink>
+        <NavLink to="#">Help</NavLink>
+        <button>
+          <a href="" className="nav-buttons">
+            Download
+          </a>
         </button>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

@@ -1,15 +1,45 @@
-.bodysection {
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  margin-top: 80px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+section h2 {
+  font-size: 50px;
   justify-content: center;
   align-self: center;
+  text-align: center;
+}
+section img {
+  padding: 1rem;
+  border-radius: 30px;
+}
+p {
+  text-align: center;
+}
+.top {
+  text-indent: 2px;
+  line-height: 2.5rem;
+  padding-bottom: 4rem;
 }
 .title {
-  font-size: 50px;
+  font-size: 64px;
   font-weight: 700;
+  padding-bottom: 1.5rem;
 }
-.grey {
-  color: #333;
+.train {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  line-height: 3.5rem;
 }
+
 .green {
   color: #04ddb2;
 }
@@ -18,7 +48,17 @@
   font-size: 24px;
 }
 .container {
-  padding: 30px;
+  width: 930px;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* padding: 30px; */
   background-color: #e8edf0;
   border-radius: 20px;
+  align-items: center;
+}
+.container:hover {
+  cursor: pointer;
+  transition: all 100ms ease-in;
+  transform: scale(1);
 }

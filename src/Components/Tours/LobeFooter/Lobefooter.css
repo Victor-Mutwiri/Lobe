@@ -1,6 +1,20 @@
-.footerdesc {
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+footer section {
+  align-items: center;
   text-decoration: none;
 }
-.footer {
-  flex-direction: column;
+footer section h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer section a {
+  padding-top: 1.5rem;
+  font-size: 15px;
 }

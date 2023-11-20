@@ -1,14 +1,14 @@
-import Lobefooter from "./Components/Tours/LobeFooter/LobeFooter";
-import LobeTour from "./Components/Tours/LobeTour/LobeTour";
+import { Routes, Route } from "react-router-dom";
+import Tours from "./Components/Tours/Tours";
+import Examples from "./Components/Examples/Examples";
 import Navbar from "./Components/Tours/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <LobeTour />
-      <Lobefooter />
-    </>
+    <Routes>
+      <Route path="/" element={<Tours />} />
+      <Route path="/Examples" element={<Examples />} />
+    </Routes>
   );
 }
 

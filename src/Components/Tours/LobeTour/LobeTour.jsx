@@ -3,28 +3,33 @@ import "./LobeTour.css";
 
 const LobeTour = () => {
   return (
-    <section className="bodysection">
-      <div className="title">
-        <span className="grey">Lobe</span>
-        <span className="green"> Tour</span>
-      </div>
-      <div className="weight">
-        <span>Build your first machine learning model in ten</span>
-        <br />
-        <span>minutes. No code or experience required.</span>
-      </div>
-      <div className="container">
-        <img src="" alt="" />
-      </div>
-      <div className="title grey">
-        <span>Train your app</span>
-        <br />
-        <span>with Lobe</span>
-      </div>
+    <div>
+      <section className="top">
+        <h2 className="title grey">
+          Lobe <span className="green"> Tour</span>
+        </h2>
+        <article className="weight">
+          <p className="grey">
+            Build your first machine learning model in ten
+            <br />
+            minutes. No code or experience required.
+          </p>
+        </article>
+      </section>
+      <section className=" container">
+        <img src="./AI.jpg" alt="AI Image" width={700} />
+      </section>
+      <section className="train">
+        <h2 className="title grey">
+          Train your app
+          <br /> with Lobe
+        </h2>
+      </section>
+
       <button className="button">Download</button>
 
       <hr />
-    </section>
+    </div>
   );
 };
 
