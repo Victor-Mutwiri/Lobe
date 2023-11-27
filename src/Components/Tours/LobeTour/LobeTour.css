@@ -37,7 +37,7 @@ p {
 .train {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  line-height: 3.5rem;
+  line-height: 4.5rem;
 }
 
 .green {
@@ -59,6 +59,6 @@ p {
 }
 .container:hover {
   cursor: pointer;
-  transition: all 100ms ease-in;
-  transform: scale(1);
+  transition: all 550ms ease-in-out;
+  transform: scale(1.05);
 }

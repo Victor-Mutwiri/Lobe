@@ -63,8 +63,11 @@ footer section {
   display: flex;
   flex-direction: column;
 }
-footer section li {
+footer section > li {
   text-decoration: none;
+  list-style: none;
+  justify-items: flex-start;
+  align-items: flex-start;
 }
 /* @media (max-width: 1024px) {
   header nav {
@@ -114,20 +117,6 @@ button:hover {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
-/*
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} 
-.flexCenter {
-  display: flex;
-  /* row-gap: 2rem; */ /* 
-  justify-content: center; 
-  align-items: center;
-  flex-wrap: wrap;
+hr {
+  color: solid #333;
 }
-.paddings {
-  padding: 1.5rem;
-}
-*/

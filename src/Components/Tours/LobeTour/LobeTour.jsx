@@ -25,9 +25,7 @@ const LobeTour = () => {
           <br /> with Lobe
         </h2>
       </section>
-
       <button className="button">Download</button>
-
       <hr />
     </div>
   );
